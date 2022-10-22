@@ -3,6 +3,12 @@ var cors = require('cors')
 const app = express();
 const port = 5000;
 
+/*
+ https://intern-opportunity-server.vercel.app/countries
+ https://intern-opportunity-server.vercel.app/countries/02
+ 
+ */
+
 app.use(cors())
 const countries = require('./data/countries.json');
 
